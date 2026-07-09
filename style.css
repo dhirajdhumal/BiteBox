@@ -207,3 +207,102 @@ header{
 z-index: 1000;
 }
 
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+thead{
+    background-color: red;
+    color: white;
+}
+
+th, td{
+    padding : 10px;
+    text-align: center;
+}
+
+tbody tr{
+    border-bottom: 1px solid #ddd;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.item img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.remove{
+    background: red;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.remove:hover{
+    background: darkred;
+}
+
+.grand-total td{
+    font-weight: bold;
+    font-size: 18px;    
+}
+
+.grand-total button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.grand-total button:hover{
+    background: darkred;
+}
+
+.qty-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.qty-box button {
+    width: 30px;
+    height: 30px;
+    background: red;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.qty-box button:hover {
+    background: darkred;
+}
+
+.qty-box span {
+    font-size: 16px;
+    font-weight: bold;
+    min-width: 20px;
+    text-align: center;
+}
+
