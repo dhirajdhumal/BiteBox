@@ -306,3 +306,52 @@ tbody tr{
     text-align: center;
 }
 
+.auth-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 90vh;
+   border-radius: 10px;
+}
+
+.auth-box{
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+    width: 330px;
+}
+
+h2, form, p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+span{
+    color: red;
+}
+
+
+input[type="email"], input[type="password"], input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+
+button[type="submit"]{
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    cursor: pointer;
+    font-size: medium;
+    color: white;
+}
+
+p a{
+    text-decoration: none;
+    color: red;
+}
