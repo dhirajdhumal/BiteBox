@@ -322,10 +322,18 @@ tbody tr{
     width: 330px;
 }
 
-h2, form, p{
+.auth-box h2{
     text-align: center;
     margin-bottom: 20px;
 }
+
+.auth-box p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
 
 span{
     color: red;
@@ -349,6 +357,7 @@ button[type="submit"]{
     cursor: pointer;
     font-size: medium;
     color: white;
+    margin-bottom: 20px;
 }
 
 p a{
