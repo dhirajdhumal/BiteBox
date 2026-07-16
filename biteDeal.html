@@ -1,11 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bite Deals</title>
+
+    <!-- Font Awesome Link -->
+    <script src="https://kit.fontawesome.com/de2326f379.js" crossorigin="anonymous"></script>
+    <!-- CSS file Integration -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fevicon icon Integration -->
+    <link rel="icon" type="image/x-icon" href="Images/favicon_io/favicon.ico">
+    <!-- Google Font Integration -->
 </head>
+
 <body>
-    <h2>Bite Deals Page</h2>
+    <!-- Header section start -->
+    <header>
+        <nav>
+            <img src="images/Logo1.png" alt="logo" class="logo" width="180px">
+
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="biteDeal.html">Bite Deals</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-plus"></i> Cart</a></li>
+                <li><a href="login.html"><i class="fa-solid fa-right-to-bracket"></i> Login</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <!-- Header section end -->
+
+    <!-- Start Bite Deals section -->
+    <section class="bite-deals">
+        <div class="bite-deals-header">
+            <h2>Bite Deals</h2>
+            <p>Get the best deals on your favorite meals!</p>
+        </div>
+
+        <h2 class="combo">Today's Combo Offer</h2>
+        <div class="card-container">
+            <div class="bitedeal-card">
+                <img src="./Images/Capsicum Pizza.png" alt="Capsicum Pizza">
+                <p><b>Margherita Pizza</b> + <b>Garlic Bread</b></p>
+                <p>Cheesy delightgarlic bread.</p>
+                <p><del>&#8377;449</del> &#8377;<b>329</b></p>
+                <button class="bitedeal-button">Order Now</button>
+            </div>
+
+            <div class="bitedeal-card">
+                <img src="" alt="">
+                <p><b>Classic Burger</b> + <b>French Fries</b></p>
+                <p>The perfect fast-food meal.</p>
+                <p><del>&#8377;399</del> &#8377;<b>299</b></p>
+                <button class="bitedeal-button">Order Now</button>
+            </div>
+
+            <div class="bitedeal-card">
+                <img src="" alt="">
+                <p><b>Fried Chicken Bucket</b> + <b>Fries</b></p>
+                <p>Crispy chicken for Sharing</p>
+                <p><del>&#8377;799</del> &#8377;<b>599</b></p>
+                <button class="bitedeal-button">Order Now</button>
+            </div>
+
+            <div class="bitedeal-card">
+                <img src="" alt="">
+                <p><b>Masala Dosa</b> + <b>Filter Coffee</b></p>
+                <p>A classic South Indian dish.</p>
+                <p><del>&#8377;299</del> &#8377;<b>219</b></p>
+                <button class="bitedeal-button">Order Now</button>
+            </div>
+        </div>
+
+        <h2 class="combo">Special Day Offers</h2>
+        <div class="offer-container">
+            <div class="offer-box">
+                <p class="offer-p">Friday Feast</p>
+                <p><sub>50%</sub> OFF on Burgers</p>
+                <button>Use Code: FRI<sub>50</sub></button>
+            </div>
+
+            <div class="offer-box">
+                <p class="offer-p">Saturday Special</p>
+                <p>Buy <sub>1</sub> Get <sub>1</sub> Pizza</p>
+                <button>Use Code: SATPIZZA</button>
+            </div>
+
+            <div class="offer-box">
+                <p class="offer-p">Sunday Treat</p>
+                <p>Flat<sub>&#8377;120</sub> OFF</p>
+                <button>Use Code: SUN<sub>120</sub></button>
+            </div>
+        </div>
+
+        <h2 class="combo">Hot Deals</h2>
+        <div class="hot-container">
+            <div class="hot-box one">
+                <p class="hot-p"><sub>50%</sub> OFF</p>
+                <p>On all Burgers</p>
+                <button>Burger<sub>50</sub></button>
+            </div>
+
+            <div class="hot-box two">
+                <p class="hot-p">Free Delivery</p>
+                <p>On First Order</p>
+                <button>FREEDEL</button>
+            </div>
+
+            <div class="hot-box three">
+               <p class="hot-p">Flat <sub>&#8377;100</sub> OFF</p>
+                <p>Above <sub>&#8377;499</sub></p>
+                <button>SAVE<sub>100</sub></button>
+            </div>
+        </div>
 </body>
+
 </html>
