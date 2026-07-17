@@ -376,25 +376,54 @@ p a{
     height: 20vh;
 }
 
-.combo{
+.combo {
     margin-left: 20px;
-} 
+    animation: textAnimation 2s infinite;
+}
+
+@keyframes textAnimation {
+    /* 0s - 2s : Red */
+    0%,
+    25% {
+        opacity: 1;
+        color: red;
+    }
+
+    25.1%,
+    50% {
+        opacity: 0;
+    }
+
+    /* 2s - 4s : Black */
+    50.01%,
+    75% {
+        opacity: 1;
+        color: black;
+    }
+
+    /* 4s - 6s : Hidden */
+    75.01%,
+    100% {
+        opacity: 0;
+    }
+}
 
 .card-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
     background-color: white;
     margin: 20px;
-    height: 54vh;
+    height: 70vh;
     padding: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
+
 .bitedeal-card {
-    width: 200px;
-    height: 50vh;
+    width: 320px;
+    height: 66vh;
     background-color: rgb(246, 246, 246);
     box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -403,8 +432,8 @@ p a{
 
 .bitedeal-card img{
     margin: 5px;
-    width: 190px;
-    height: 200px;
+    width: 300px;
+    height: 325px;
     border-radius: 10px;
 }
 
@@ -427,6 +456,13 @@ p a{
     background: darkred;
 }
 
+@media (min-width: 0px) and (max-width: 768px) {
+    .card-container {
+        height: auto;
+        width: auto;
+    }
+}
+
 .offer-container{
     display: flex;
     justify-content: space-between;
@@ -435,7 +471,7 @@ p a{
 }
 
 .offer-box{
-    background-color: white;
+    background-color: rgb(246, 246, 246);
     width: 31.5%;
     text-align: center;
     padding: 30px;
@@ -461,6 +497,7 @@ p a{
     font-weight: bold;
 }
 
+
 .hot-container{
     display: flex;
     justify-content: space-between;
@@ -469,10 +506,10 @@ p a{
 }
 
 .hot-box{
-    background-color: white;
+    background-color: rgb(246, 246, 246);
     width: 31.5%;
     text-align: center;
-    padding: 30px;
+    padding: 40px;
     border-radius: 10px;
     box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
 }
@@ -506,3 +543,4 @@ p a{
 .hot-p{
     font-weight: bold;
 }
+
