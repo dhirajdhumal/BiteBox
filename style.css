@@ -306,7 +306,7 @@ tbody tr{
     text-align: center;
 }
 
-.auth-container{
+.auth-container {
    display: flex;
    justify-content: center;
    align-items: center;
